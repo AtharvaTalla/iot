@@ -6,7 +6,7 @@ void setup(){
 }
 void loop()
 {
-celsius = map(analogRead(A2), 0, 1023, -40, 125) *0.30517578125 + 40;
+    celsius = map(analogRead(A2), 0, 1023, -40, 125);
     fahrenheit = ((celsius * 9) / 5 + 32);
   Serial.print(celsius);
   Serial.print(" C, ");
