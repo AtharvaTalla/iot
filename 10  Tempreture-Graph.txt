@@ -17,17 +17,16 @@ void loop(){
   hum = DHT.humidity;
   temp = DHT.temperature;
  
-Serial.println();
+  Serial.println();
  
-Serial.println(hum);
+  Serial.println(hum);
   Serial.print("Humidity: ");
  
- Serial.print(",");
- 
- Serial.print("Temp: ");
- Serial.println(temp);
- Serial.print("o"); //degree symbol
- Serial.print("C ");
- Serial.print(",");
+  Serial.print(",");
+  Serial.print("Temp: ");
+  Serial.println(temp);
+  Serial.print("o"); //degree symbol
+  Serial.print("C ");
+  Serial.print(",");
 }
 
